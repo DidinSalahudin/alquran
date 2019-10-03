@@ -1,0 +1,184 @@
+.header {
+    /* padding-bottom: 20px; */
+    height: 90px;
+    display: flex;
+    /* -ms-flex-align: center; */
+    align-items: center;
+    justify-content: center;
+    /* -webkit-box-shadow: 1px 0 18px 0 rgba(0, 0, 0, .22); */
+    box-shadow: 1px 0 18px 0 rgba(0, 0, 0, .22);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #fff;
+}
+
+.selected-surah {
+    display: flex;
+    background-color: #009588;
+    border-radius: 50px;
+    box-sizing: border-box;
+    padding: 5px;
+    align-items: center;
+}
+
+.circle-item {
+    width: 50px;
+    height: 50px;;
+    display: flex;
+    background-color: #fff;
+    border-radius: 100px;
+    text-align: center;
+    font-size: 10px;
+    color: #009588;
+    align-items: center;
+}
+
+.number-of-ayah {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.surah-place {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.name-of-surah {
+    margin: 0 15px;
+    justify-items: center;
+}
+
+.name-of-surah p.title-surah {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    color: #fff;
+}
+
+.name-of-surah p.title-ayah {
+    margin: 0;
+    font-size: 12px;
+    color: #fff;
+    text-align: center;
+}
+
+.container {
+    overflow: auto;
+    padding-bottom: 80px;
+    
+}
+
+.content {
+    margin-top: 120px;
+}
+
+.container .content .bismillah {
+    text-align: center;
+    font-size: 24px;
+    color: #009688;
+    font-family: 'MeQuran2';
+}
+
+.container .content ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+} */
+
+.container .content ul li {
+    text-align: right;
+    padding: 10px;
+    font-size: 24px;
+    color: #505050;
+    border-top: 1px solid hsla(0, 0%, 50%, .1);
+    line-height: 46px;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.container .content ul li .content-ayah {
+    display: inline-block;
+    width: calc(100% - 40px);
+    vertical-align: top;
+}
+
+.font-uthmani {
+    font-family: Uthmani, serif;
+}
+
+.container .content ul li .content-translation {
+    font-family: sans-serif;
+    font-size: .7em;
+    color: #8c8c8c;
+    font-style: italic;
+    line-height: 1.5em;
+    padding-top: 16px;
+    padding-bottom: 14px;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.container .content ul li .number-ayah {
+    width: 30px;
+    height: 20px;
+    line-height: 20px;
+    /* display: inline-block; */
+    margin-left: 14px;
+    font-size: 12px;
+    /* position: relative; */
+    border: 1px solid #009688;
+    border-radius: 25px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.show-menu-button {
+    width: 50px;
+    height: 50px;
+    background: #10998c;
+    border-radius: 100%;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+    opacity: 1;
+    -webkit-transition: opacity ease;
+    -o-transition: opacity ease;
+    transition: opacity ease;
+}
+
+.show-menu-button .icon-menu {
+    width: 20px;
+    height: 20px;
+    background: url(/static/media/ic-menu.25b6e0bd.svg) no-repeat;
+    background-size: contain;
+    background-position: 50%;
+}
+
+.isLoading {
+    text-align: center;
+    margin-top: 200px;
+}
