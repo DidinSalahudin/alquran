@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/alquran/static/css/main.d06e4fa8.chunk.css",
+    "main.js": "/alquran/static/js/main.6affe0f7.chunk.js",
+    "main.js.map": "/alquran/static/js/main.6affe0f7.chunk.js.map",
+    "runtime~main.js": "/alquran/static/js/runtime~main.b1638580.js",
+    "runtime~main.js.map": "/alquran/static/js/runtime~main.b1638580.js.map",
+    "static/js/2.2d5f7474.chunk.js": "/alquran/static/js/2.2d5f7474.chunk.js",
+    "static/js/2.2d5f7474.chunk.js.map": "/alquran/static/js/2.2d5f7474.chunk.js.map",
+    "index.html": "/alquran/index.html",
+    "precache-manifest.9ca2abe5091af536b27447555452eeb3.js": "/alquran/precache-manifest.9ca2abe5091af536b27447555452eeb3.js",
+    "service-worker.js": "/alquran/service-worker.js",
+    "static/css/main.d06e4fa8.chunk.css.map": "/alquran/static/css/main.d06e4fa8.chunk.css.map",
+    "static/media/loader.gif": "/alquran/static/media/loader.557336d4.gif"
+  }
+}
