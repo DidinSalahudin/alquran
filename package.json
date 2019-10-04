@@ -2,7 +2,7 @@
   "name": "alquran",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://DidinSalahudin.github.io/alquran/",
+  "homepage": "https://didinsalahudin.github.io/alquran/",
   "dependencies": {
     "axios": "^0.19.0",
     "react": "^16.9.0",
